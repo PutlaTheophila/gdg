@@ -15,8 +15,6 @@ app.use(cors({
     allowedHeaders:['Authorization','Content-Type','Custom-Header']
 }));
 
-
-//hello
 app.get('/', (req, res) => {
     res.send('hello');
 });
