@@ -9,7 +9,7 @@ import MongoStore from "connect-mongo";
 
 app.use(express.json());
 app.use(cors({
-    origin:'https://gdg-frontend.onrender.com',
+    origin:'https://gdg-maps-iitbhilai.netlify.app',
     methods: 'GET,POST,PUT,DELETE',
     credentials: true,
     allowedHeaders:['Authorization','Content-Type','Custom-Header']
